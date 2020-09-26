@@ -18,6 +18,15 @@ steps:
 - script: |
     npm install -g serverless
     npm install
-    serverless deploy
 
   displayName: 'npm install and build'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      serveless config credentials --provider aws --key $AWS_ACCESS_KEY_ID --secret $AWS_SECRET_ACCESS_KEY
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'serverless deploy'
