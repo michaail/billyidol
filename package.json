@@ -1,0 +1,22 @@
+{
+  "name": "billyidol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaail/billyidol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaail/billyidol/issues"
+  },
+  "homepage": "https://github.com/michaail/billyidol#readme",
+  "devDependencies": {
+    "aws-amplify-serverless-plugin": "^1.4.1"
+  }
+}

@@ -1,5 +1,22 @@
 service: billyidol
 
+plugins:
+  - aws-amplify-serverless-plugin
+
+custom:
+  stage: beta
+  amplify:
+    - filename: front-end/src/App.js
+      type: javascript
+
+package:
+  exclude:
+    - front-end/node_modules/**
+    - front-end/amplify/**
+    - front-end/public/**
+    - front-end/src/**
+    - front-end/yarn.lock
+
 provider:
   name: aws
   runtime: nodejs12.x

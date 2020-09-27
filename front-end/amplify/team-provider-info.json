@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-billyidolfront-dev-02441-authRole",
+      "UnauthRoleArn": "arn:aws:iam::796452304522:role/amplify-billyidolfront-dev-02441-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::796452304522:role/amplify-billyidolfront-dev-02441-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-billyidolfront-dev-02441-deployment",
+      "UnauthRoleName": "amplify-billyidolfront-dev-02441-unauthRole",
+      "StackName": "amplify-billyidolfront-dev-02441",
+      "StackId": "arn:aws:cloudformation:eu-west-1:796452304522:stack/amplify-billyidolfront-dev-02441/13fabe90-0047-11eb-bebb-02c4fae2d862",
+      "AmplifyAppId": "d7x7m3m2riaiz"
+    }
+  }
+}
